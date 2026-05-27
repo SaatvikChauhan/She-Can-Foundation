@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000/api'; 
+const BASE_URL = 'https://she-can-api.vercel.app/api'; 
 
 const fetcher = async (endpoint, method = 'GET', body = null) => {
   const options = { method, headers: { 'Content-Type': 'application/json' } };
